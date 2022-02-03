@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: node
-          image: jorgerap1997/server:latest
+          image: jorgerap1997/backend:latest
           command: ["/bin/sh", "-c", "sleep 40 && npm run start"]
           args:
             - --bind_ip

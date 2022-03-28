@@ -6,9 +6,9 @@ metadata:
     app.kubernetes.io/name: node
     app.kubernetes.io/component: backend
 spec:
-  # type: NodePort
+  type: NodePort
   # type: ClusterIP
-  type: LoadBalancer
+  # type: LoadBalancer
   ports:
     - port: 2002
       targetPort: 2002
